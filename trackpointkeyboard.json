@@ -1,0 +1,24 @@
+{
+  "title": " Thinkpad keyboard",
+  "rules": [
+    {
+      "description": "Make middle click to command + middle click.",
+      "manipulators": [
+        { "type": "basic",
+          "from": {
+            "pointing_button": "button3"
+          }
+        },
+        { "type": "basic",
+          "from": {
+            "pointing_button": "button3",
+            "modifiers": { "mandatory": [ "command" ] }
+          },
+          "to": [
+            { "pointing_button": "button3" }
+          ]
+        }
+      ]
+    }
+  ]
+}
