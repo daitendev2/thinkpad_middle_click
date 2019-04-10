@@ -1,5 +1,5 @@
 # thinkpad_middle_click
-Thinkpad middle click problem for Karabiner-Elements
+Thinkpad middle click problem for Karabiner-Elements(macOS)
 
 # how to use
 1. put json in `~/.config/karabiner/assets/complex_modifications/`
